@@ -1,5 +1,3 @@
-# Vehicle-Classification-Model
-
 ## Vehicle Classification Using CNN
 
 ### Overview
@@ -44,3 +42,28 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 ```
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AjithMoolya04/Vehicle-Classification-Model.git
+   ```
+
+2. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. **Run the main script**:
+
+   ```bash
+   Vehicle_classification_using_cnn.ipynb
+   ```
+
+2. **Explore the results**:
+   - Review the evaluation metrics and plots to understand the model's performance.
+
